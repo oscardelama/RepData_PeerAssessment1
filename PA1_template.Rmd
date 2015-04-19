@@ -170,7 +170,7 @@ The histogram has changed, with an added new second bar with values that in the 
 They differ, in the fisrt part of this assignment we got a mean of **`r round(mean.steps.per.day,1)`**.
 and a median of **`r median.steps.per.day`**. 
 
-The impact caused by imputing missing data is a difference of **`r round(mean.steps.per.day - new.mean.steps.per.day,1)`** in the mean of steps per day and **`r median.steps.per.day - new.median.steps.per.day`** in the median of steps per day. The impact is smallerin median value because we have replaced the NANs with interval median values.
+The impact caused by imputing missing data is a difference of **`r round(mean.steps.per.day - new.mean.steps.per.day,1)`** in the mean of steps per day and **`r median.steps.per.day - new.median.steps.per.day`** in the median of steps per day. The impact is smaller in the median value because we have replaced the NANs with interval median values along all days.
 
 ## IV. Are there differences in activity patterns between weekdays and weekends?
 
