@@ -10,7 +10,6 @@ output:
 knitr::opts_chunk$set(
      comment = "#>"
     ,prompt = FALSE
-#     ,collapse = TRUE
     ,dev = 'png'
     ,tidy = FALSE
   )
@@ -197,3 +196,4 @@ ggplot(mean.steps.df, aes(interval, steps)) +
   facet_grid(weekday.kind ~ .)
 ```
 
+End of Report.
