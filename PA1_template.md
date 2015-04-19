@@ -1,5 +1,7 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title:  "Reproducible Research: Peer Assessment 1"
+author: "Oscar de Lama"
+date:   'r date()'
 output: 
   html_document:
     keep_md: true
@@ -206,7 +208,7 @@ The histogram has changed, with an added new second bar with values that in the 
 They differ, in the fisrt part of this assignment we got a mean of **10766.2**.
 and a median of **10765**. 
 
-The impact caused by imputing missing data is a difference of **1262.3** in the mean of steps per day and **370** in the median of steps per day. The impact is very much small when comparing median values, because we have replaced the NANs with interval median values.
+The impact caused by imputing missing data is a difference of **1262.3** in the mean of steps per day and **370** in the median of steps per day. The impact is smallerin median value because we have replaced the NANs with interval median values.
 
 ## IV. Are there differences in activity patterns between weekdays and weekends?
 
