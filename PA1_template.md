@@ -12,8 +12,12 @@ output:
 
 ## Loading and preprocessing the data
 
+We will just load the data and keep it as is. An additional pre-processing is not required.
+
+
 ```r
 activity.df <- read.csv('activity.csv')
+# An additional pre-processing is not required.
 ```
 
 
